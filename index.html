@@ -33,28 +33,86 @@
 that allows you to see how much of your time you have been spending procrastinating...</p>
 <p>The best way to see how fast one thing is getting done is probably by the use of <b>Charts</b> and <b>Tables</b> for data comparison.</p>
 
-<p>For the <b>Progress Bar</b>, I am using <a href="https://github.com/fehmicansaglam/progressed.io">progressed.io</a> for my Progress Bars because I think that his concepts
-match with my idea of progress on a README.md. Examples</p>
+<p>For the <b>Progress Bar</b>, I am using <a href="https://github.com/fehmicansaglam/progressed.io">progressed.io</a> because I think that his concepts
+match with my idea of progress on a README.md. See more below:</p>
 
-| CODE                                               | Result                                                     |
-| -------------------------------------------------- | ---------------------------------------------------------- |
-| <code>![Progress]http://progressed.io/bar/20</code> | <img src="http://progressed.io/bar/20" alt="Progress 20"> |
+<table border="0">
+  <tr>
+    <td><b>Code</b></td>
+    <td><b>Result</b></td>
+  </tr>
+  <tr>
+    <td><code>![Progress]http://progressed.io/bar/20</code></td>
+    <td><img style="vertical-align:middle" src="http://progressed.io/bar/20" alt="Progress 20"></td>
+  </tr>
+  <tr>
+    <td><code>![Progress]http://progressed.io/bar/60</code></td>
+    <td><img style="vertical-align:middle" src="http://progressed.io/bar/60" alt="Progress 60"></td>
+  </tr>
+  <tr>
+    <td><code>![Progress]http://progressed.io/bar/100</code></td>
+    <td><img style="vertical-align:middle" src="http://progressed.io/bar/100" alt="Progress 100"></td>
+  </tr>
+  <tr>
+    <td><code>![Progress]http://progressed.io/bar/91?title=done</code></td>
+    <td><img style="vertical-align:middle" src="http://progressed.io/bar/91?title=done" alt="Progress With Title"></td>
+  </tr>
+</table>
+
+<p>For the <b>Charts</b>, I am using the <a href="https://developers.google.com/chart/interactive/docs/gallery">Google Charts API</a>. inside
+  your Markdown (README.md, for example) file you can write:</p>
+
+  <table border="0">
+    <tr>
+      <td ><b>Code</b></td>
+      <td width="300"><b>Result</b></td>
+    </tr>
+    <tr>
+      <td><code>![Chart](https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:20,5,75&chl=Done|In%20Progress|To%20Do)</code></td>
+      <td><img src='https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:20,5,75&chl=Done|In%20Progress|To%20Do' alt='Chart CS50)' height='100' width='250' /></td>
+    </tr>
+    <tr>
+      <td><code style="display:block">![Chart](https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:100&chco=8BC34A&chl=Done)</code></td>
+      <td><img src='https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:100&chco=8BC34A&chl=Done' alt='Chart CS50)' height='100' width='250' /></td>
+    </tr>
+  </table>
+
+<p>For more information about Charts, please visit: <a href="https://developers.google.com/chart/image/docs/chart_params">https://developers.google.com/chart/image/docs/chart_params</a></p>
 
 <h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
+<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Kanban</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<p>Managing the tasks of each project should be very important for you as well. For that reason, I created a <code>svg</code> file called <code>postit.svg</code> that will server
+as "Post-it"'s that we use in <a href="http://kanbanblog.com/explained/">Kanban</a>.</p>
+<p>I tried to make this Post-It as customizable as I could. And its value default is as below:</p>
+
+<table border="0">
+  <tr>
+    <td ><b>Code</b></td>
+    <td width="300"><b>Result</b></td>
+  </tr>
+  <tr>
+    <td><code>![Post-It](http://luizperes.github.io/status-projects/postit.svg)</code></td>
+    <td><object type="image/svg+xml" data="http://luizperes.github.io/status-projects/postit.svg"></object></td>
+  </tr>
+  <tr>
+    <td><code>![Post-It](http://luizperes.github.io/status-projects/postit.svg?title=Task%20%231&desc=Example)</code></td>
+    <td><object type="image/svg+xml" data="http://luizperes.github.io/status-projects/postit.svg?title=Task%20%231&desc=Example"></object></td>
+  </tr>
+  <tr>
+    <td><code>![Post-It](http://luizperes.github.io/status-projects/postit.svg?bgColor=0000FF&strkColor=000000&txtColor=FFFFFF)</code></td>
+    <td><object type="image/svg+xml" data="http://luizperes.github.io/status-projects/postit.svg?bgColor=0000FF&strkColor=000000&txtColor=FFFFFF"></object></td>
+  </tr>
+  <tr>
+    <td><code>![Post-It](http://luizperes.github.io/status-projects/postit.svg?bgColor=FFB3B3&strkColor=FFFFFF&title=Task%20%232&desc=Example)</code></td>
+    <td><object type="image/svg+xml" data="http://luizperes.github.io/status-projects/postit.svg?bgColor=FFB3B3&strkColor=FFFFFF&title=Task%20%232&desc=Example"></object></td>
+  </tr>
+</table>
 
 <h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support, Contact or Trouble</h3>
 
-<p>You can <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-
+<p>Having trouble? Check out our <a href="https://github.com/luizperes/status-projects">repository</a>.</p>
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/luizperes/status-projects">Status-projects</a> is maintained by <a href="https://github.com/luizperes">luizperes</a>.</span>
 
@@ -62,7 +120,6 @@ match with my idea of progress on a README.md. Examples</p>
       </footer>
 
     </section>
-
 
   </body>
 </html>
