@@ -1,5 +1,8 @@
 # Information
-__status-projects__ repository aims to gather the status of my projects together, once I am having trouble in managing my time vs lots of projects. I am also unable to understand my productivity and my resources, thus ending up never finishing any of them.
+__status-projects__ repository aims to gather the status of my projects together, once I am having trouble in managing my time versus the amount of projects I have. I am also unable to understand my productivity and my resources, thus ending up never finishing any of them.
+
+### Details
+I wrote a very ```quick``` guide about how to use my project on [http://luizperes.github.io/status-projects/](http://luizperes.github.io/status-projects/), so please take a look at that or open my README.md file on __Raw__ mode. :)
 
 ### General status of my current Projects
 
