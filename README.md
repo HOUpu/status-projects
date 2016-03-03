@@ -39,5 +39,29 @@ I am also trying to read and understand all the book [Art of Assembly x86](http:
 
 <div align="center"><img src='https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:5,95&chl=Read|Not%20Read' alt='Chart CS50)' height='100' width='250' /></div>
 
+## Ballsy
+
+[Ballsy](https://github.com/ideiadoluiz/ballsy-doodle) is an iOS game that uses SpriteKit engine. This game is still a mistery for me and I am trying to figure things out before getting back to work on it. I am not sure yet about the game play!
+
+<div align="center"><img src='https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:5,0,95&chco=8BC34A,CDDC39,C8E6C9&chl=Done|In%20Progress|To%20Do' alt='Chart CS50)' height='100' width='250' /></div>
+
+## Stepss
+
+[Stepss](https://github.com/luizperes/TStepProject) is another mistery for me, even though I work on this project for 2 or 3 months straight, but that was on September, 2015. I need to either continue or stop this project. 
+
+<div align="center"><img src='https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:60,0,40&chco=8BC34A,CDDC39,C8E6C9&chl=Done|In%20Progress|To%20Do' alt='Chart CS50)' height='100' width='250' /></div>
+
+## Project Euler
+
+[Project Euler](https://github.com/DestructHub/ProjectEuler) is a compilation of some solutions of the challenges existent in the website [www.projecteuler.net](www.projecteuler.net). This project is one of my favourite ones, because it deals with hard mathematical/computational problems. The sad thing is that I can only help them after finishing my other projects. 
+
+<div align="center"><img src='https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:10,1,89&chco=8BC34A,CDDC39,C8E6C9&chl=Done|In%20Progress|To%20Do' alt='Chart CS50)' height='100' width='250' /></div>
+
+## Brainfuck Interpreter
+
+[Brainfuck Interpreter](https://github.com/luizperes/BrainfuckInterpreter) is a repository of an interpreter written in C for the esoteric programming language Brainfuck. It's been working quite properly and I also added two new structures to that language. Actually, I am thinking of changing it quite a bit, thus, I might change this repository name in the future... :)
+
+<div align="center"><img src='https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:100&chco=8BC34A&chl=Done' alt='Chart CS50)' height='100' width='250' /></div>
+
 ### LICENSE
 This project extends [GNU GPL v. 3](http://www.gnu.org/licenses/gpl-3.0.en.html), so be aware of that, regarding copying, modifying and (re)destributing.
