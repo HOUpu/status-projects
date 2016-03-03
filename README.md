@@ -63,5 +63,17 @@ I am also trying to read and understand all the book [Art of Assembly x86](http:
 
 <div align="center"><img src='https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:100&chco=8BC34A&chl=Done' alt='Chart CS50)' height='100' width='250' /></div>
 
+## Beezy Bee
+
+[Beezy Bee](https://github.com/cornerstonecollege/beezy-bee) is an arcade-style game inspired on "Flappy Bird" made by the students I teach at [Cornerstone College](http://ciccc.ca). Beezy Bee is meant so far for iOS devices and I helped and guided them to idealize the solution as well as solve the problems that they had while developing this project.
+
+<div align="center"><img src='https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:100&chco=8BC34A&chl=Done' alt='Chart CS50)' height='100' width='250' /></div>
+
+## Fartometer
+
+[Fartometer](https://github.com/ideiadoluiz/FartometerIOSProject) is my last year's favourite project. This project allows you to see on your iPhone how strong your farts are! The project is basically an Arduino device with a BLE Shield, and if you want, you can also detect any kind of gas in the air by only changing the gas sensor. If you want to get to know how to build your own, please visit: [How to build your own fartometer](http://www.ideiadoluiz.com.br/site/how-to-build-your-own-fartometer/)
+
+<div align="center"><img src='https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:100&chco=8BC34A&chl=Done' alt='Chart CS50)' height='100' width='250' /></div>
+
 ### LICENSE
 This project extends [GNU GPL v. 3](http://www.gnu.org/licenses/gpl-3.0.en.html), so be aware of that, regarding copying, modifying and (re)destributing.
