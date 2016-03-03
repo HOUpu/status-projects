@@ -3,18 +3,18 @@ __status-projects__ repository aims to gather the status of my projects together
 
 ### General status of my current Projects
 
-| Project Name                        | Status                                    | Technology  |  Priority  |  Deadline    |
-| ----------------------------------- |:-----------------------------------------:| ----------- | ----------:|  --------    |
-| [CS50](#cs50)                       | ![Progress](http://progressed.io/bar/20)  | C           | __HIGH__   | May 01, 2016 |
-| [Artoo Editor](#artoo-editor)       | ![Progress](http://progressed.io/bar/20)  | C           | Medium     |              |
-| [Documentation Swift](#swift)       | ![Progress](http://progressed.io/bar/30)  | Swift       | Medium     |              |
-| [Art of Assembly x86](#assembly)    | ![Progress](http://progressed.io/bar/5)   | Assembly    | Medium     |              |
-| [Ballsy](#ballsy)                   | ![Progress](http://progressed.io/bar/5)   | iOS/Obj-C   | Low        |              |
-| [Stepss](#stepss)                   | ![Progress](http://progressed.io/bar/60)  | Android/Java| Low        |              |
-| [Project Euler](#project-euler)     | ![Progress](http://progressed.io/bar/10)  | Swift       | Low        |              |
-| [Brainfuck](#brainfuck-interpreter) | ![Progress](http://progressed.io/bar/100) | C           | Low        | DONE         |
-| [Beezy-bee](#beezy-bee)             | ![Progress](http://progressed.io/bar/100) | iOS/Obj-C   | Low        | DONE         |
-| [Fartometer](#fartometer)           | ![Progress](http://progressed.io/bar/100) | iOS/Obj-C   | Low        | DONE         |
+| Project Name                        | Status                                    | Technology  | Priority |  Deadline    |
+| ----------------------------------- |:-----------------------------------------:| ----------- | --------:|  --------    |
+| [CS50](#cs50)                       | ![Progress](http://progressed.io/bar/20)  | C           | __HIGH__ | May 01, 2016 |
+| [Artoo Editor](#artoo-editor)       | ![Progress](http://progressed.io/bar/20)  | C           | Medium   |              |
+| [Documentation Swift](#swift)       | ![Progress](http://progressed.io/bar/30)  | Swift       | Medium   |              |
+| [Art of Assembly x86](#assembly)    | ![Progress](http://progressed.io/bar/5)   | Assembly    | Medium   |              |
+| [Ballsy](#ballsy)                   | ![Progress](http://progressed.io/bar/5)   | iOS/Obj-C   | Low      |              |
+| [Stepss](#stepss)                   | ![Progress](http://progressed.io/bar/60)  | Android/Java| Low      |              |
+| [Project Euler](#project-euler)     | ![Progress](http://progressed.io/bar/10)  | Swift       | Low      |              |
+| [Brainfuck](#brainfuck-interpreter) | ![Progress](http://progressed.io/bar/100) | C           | Low      | DONE         |
+| [Beezy-bee](#beezy-bee)             | ![Progress](http://progressed.io/bar/100) | iOS/Obj-C   | Low      | DONE         |
+| [Fartometer](#fartometer)           | ![Progress](http://progressed.io/bar/100) | iOS/Obj-C   | Low      | DONE         |
 
 ## CS50
 
