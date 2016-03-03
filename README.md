@@ -1,3 +1,6 @@
-![Test](https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:20,5,75&chco=8BC34A,CDDC39,C8E6C9&chl=Done|In%20Progress|To%20Do)
+## Status Projects
 
-![ads](http://luizperes.github.io/status-projects/postit.svg)
+This branch is dedicated to the website of the project: [http://luizperes.github.io/status-projects/](http://luizperes.github.io/status-projects/)
+
+### LICENSE
+This project extends [GNU GPL v. 3](http://www.gnu.org/licenses/gpl-3.0.en.html), so be aware of that, regarding copying, modifying and (re)destributing.
