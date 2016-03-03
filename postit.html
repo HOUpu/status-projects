@@ -5,19 +5,22 @@ permalink: /postit/
 
 <html>
   <head>
+    <meta http-equiv="Content-type" content="image/png">
     <link  href="http://fonts.googleapis.com/css?family=Reenie+Beanie:regular" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="stylesheets/postit.css" media="screen">
+    <script src="js/html2canvas.js"></script>
     <script src="js/query.js"></script>
     <script src="js/postit.js"></script>
   </head>
   <body>
     <ul>
-      <li>
+      <li id="elContainer">
         <a id="element" href="#">
           <h2 id="elTitle">Invalid</h2>
           <p id="elDescription">Invalid</p>
         </a>
       </li>
     </ul>
+    <canvas></canvas>
   </body>
 </html>
