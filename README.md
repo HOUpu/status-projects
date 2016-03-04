@@ -1,8 +1,16 @@
 # Information
 __status-projects__ repository aims to gather the status of my projects together, once I am having trouble in managing my time versus the amount of projects I have. I am also unable to understand my productivity and my resources, thus ending up never finishing any of them.
 
-### Details
-I wrote a very ```quick``` guide about how to use my project on [http://luizperes.github.io/status-projects/](http://luizperes.github.io/status-projects/), so please take a look at that or open my README.md file on __Raw__ mode. :)
+## Why should you use it?
+- You can visualize better your tasks and projects. So do others!
+- __Status Projects__ is right inside your GitHub and even better, right inside your Markdown files.
+- You can work directly from your favourite Web Browser.
+- It's better for working on team projects because everyone can spot one's task.
+- It helps you to take decisions.
+- No extra tools required, nor extra logins.
+
+### Getting Started
+I wrote a very ```quick``` guide about how to get started with this project on [http://luizperes.github.io/status-projects/](http://luizperes.github.io/status-projects/), so please take a look at that or open my README.md file on ```Raw``` mode. :)
 
 ### General status of my current Projects
 
