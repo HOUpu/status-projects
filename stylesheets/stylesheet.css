@@ -34,6 +34,39 @@ a {
   background-color: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3); }
 
+  .div-table{
+    display:table;
+    width:auto;
+    background-color:#fff;
+    border:0px solid  #fff;
+    border-spacing:5px;/*cellspacing:poor IE support for  this*/
+    opacity: 0.8;
+  }
+  .div-table-row{
+    display:table-row;
+    width:auto;
+    clear:both;
+  }
+  .div-table-col{
+    float:left;/*fix for  buggy browsers*/
+    display:table-column;
+    background-color:#fff;
+  }
+
+  .left{
+    width: 400px;
+  }
+
+  .right{
+    display: inline-block;
+    width: 250px;
+    height: 100%;
+  }
+
+  .left p{
+    word-wrap:break-word;
+  }
+
 @media screen and (min-width: 64em) {
   .btn {
     padding: 0.75rem 1rem; } }

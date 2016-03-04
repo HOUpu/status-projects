@@ -36,78 +36,82 @@ that allows you to see how much of your time you have been spending procrastinat
 <p>For the <b>Progress Bar</b>, I am using <a href="https://github.com/fehmicansaglam/progressed.io">progressed.io</a> because I think that his concepts
 match with my idea of progress on a README.md. See more below:</p>
 
-<table border="0">
-  <tr>
-    <td><b>Code</b></td>
-    <td><b>Result</b></td>
-  </tr>
-  <tr>
-    <td><code>![Progress]http://progressed.io/bar/20</code></td>
-    <td><img style="vertical-align:middle" src="http://progressed.io/bar/20" alt="Progress 20"></td>
-  </tr>
-  <tr>
-    <td><code>![Progress]http://progressed.io/bar/60</code></td>
-    <td><img style="vertical-align:middle" src="http://progressed.io/bar/60" alt="Progress 60"></td>
-  </tr>
-  <tr>
-    <td><code>![Progress]http://progressed.io/bar/100</code></td>
-    <td><img style="vertical-align:middle" src="http://progressed.io/bar/100" alt="Progress 100"></td>
-  </tr>
-  <tr>
-    <td><code>![Progress]http://progressed.io/bar/91?title=done</code></td>
-    <td><img style="vertical-align:middle" src="http://progressed.io/bar/91?title=done" alt="Progress With Title"></td>
-  </tr>
-</table>
+<div class="div-table">
+             <div class="div-table-row">
+                <div class="div-table-col left" align="center">Sample</div>
+                <div  class="div-table-col right" align="center">Result</div>
+             </div>
+            <div class="div-table-row">
+                  <div class="div-table-col left" align="left"><p><code>![Progress]http://progressed.io/bar/20</code></p></div>
+                <div class="div-table-col right" align="center"><img style="vertical-align:middle" src="http://progressed.io/bar/20" alt="Progress 20" /></div>
+            </div>
+            <div class="div-table-row">
+                <div class="div-table-col left" align="left"><p><code>![Progress]http://progressed.io/bar/60</code></p></div>
+                <div class="div-table-col right" align="center"><img style="vertical-align:middle" src="http://progressed.io/bar/60" alt="Progress 60" /></div>
+           </div>
+           <div class="div-table-row">
+             <div class="div-table-col left" align="left"><p><code>![Progress]http://progressed.io/bar/100</code></p></div>
+             <div class="div-table-col right" align="center"><img style="vertical-align:middle" src="http://progressed.io/bar/100" alt="Progress 100" /></div>
+          </div>
+          <div class="divRow">
+             <div class="div-table-col left" align="left"><p><code>![Progress]http://progressed.io/bar/91?title=done</code></p></div>
+             <div class="div-table-col right" align="center"><img style="vertical-align:middle" src="http://progressed.io/bar/91?title=done" alt="Progress With Title" /></div>
+          </div>
+      </div>
 
 <p>For the <b>Charts</b>, I am using the <a href="https://developers.google.com/chart/interactive/docs/gallery">Google Charts API</a>. inside
   your Markdown (README.md, for example) file you can write:</p>
 
-  <table border="0">
-    <tr>
-      <td ><b>Code</b></td>
-      <td width="300"><b>Result</b></td>
-    </tr>
-    <tr>
-      <td><code>![Chart](https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:20,5,75&chl=Done|In%20Progress|To%20Do)</code></td>
-      <td><img src='https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:20,5,75&chl=Done|In%20Progress|To%20Do' alt='Chart CS50)' height='100' width='250' /></td>
-    </tr>
-    <tr>
-      <td><code style="display:block">![Chart](https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:100&chco=8BC34A&chl=Done)</code></td>
-      <td><img src='https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:100&chco=8BC34A&chl=Done' alt='Chart CS50)' height='100' width='250' /></td>
-    </tr>
-  </table>
+<div class="div-table">
+  <div class="div-table-row">
+      <div class="div-table-col left" align="center">Sample</div>
+      <div class="div-table-col right" align="center">Result</div>
+  </div>
+  <div class="div-table-row">
+    <div class="div-table-col left" align="left"><p><code>![Chart](https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:20,5,75&chl=Done|In%20Progress|To%20Do)</code></p></div>
+    <div class="div-table-col right" align="center"><img src='https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:20,5,75&chl=Done|In%20Progress|To%20Do' alt='Chart CS50)' height='100' width='250' /></div>
+  </div>
+  <div class="divRow">
+    <div class="div-table-col left" align="left"><p><code>![Chart](https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:100&chco=8BC34A&chl=Done)</code></p></div>
+    <div class="div-table-col right" align="center"><img src='https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:100&chco=8BC34A&chl=Done' alt='Chart CS50)' height='100' width='250' /></div>
+  </div>
+</div>
 
 <p>For more information about Charts, please visit: <a href="https://developers.google.com/chart/image/docs/chart_params">https://developers.google.com/chart/image/docs/chart_params</a></p>
 
 <h3>
 <a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Kanban</h3>
 
-<p>Managing the tasks of each project should be very important for you as well. For that reason, I created a <code>svg</code> file called <code>postit.svg</code> that will server
-as "Post-it"'s that we use in <a href="http://kanbanblog.com/explained/">Kanban</a>.</p>
-<p>I tried to make this Post-It as customizable as I could. And its value default is as below:</p>
+<p>Managing the tasks of each project should be very important for you as well. For that reason, I created a small script on the link <a href="http://api.ideiadoluiz.com.br/postit/"><code>http://api.ideiadoluiz.com.br/postit/</code></a> that will server
+as a "Post-it" maker. You can try to use it as a set of them as a<a href="http://kanbanblog.com/explained/">Kanban</a>.</p>
+<p>I tried to make this as customizable as I could. And you can customize it as below and use it as below:</p>
 
-<table border="0">
-  <tr>
-    <td ><b>Code</b></td>
-    <td width="300"><b>Result</b></td>
-  </tr>
-  <tr>
-    <td><code>![Post-It](http://luizperes.github.io/status-projects/postit.svg)</code></td>
-    <td><object type="image/svg+xml" data="http://luizperes.github.io/status-projects/postit.svg"></object></td>
-  </tr>
-  <tr>
-    <td><code>![Post-It](http://luizperes.github.io/status-projects/postit.svg?title=Task%20%231&desc=Example)</code></td>
-    <td><object type="image/svg+xml" data="http://luizperes.github.io/status-projects/postit.svg?title=Task%20%231&desc=Example"></object></td>
-  </tr>
-  <tr>
-    <td><code>![Post-It](http://luizperes.github.io/status-projects/postit.svg?bgColor=0080ff&strkColor=000000&txtColor=FFFFFF)</code></td>
-    <td><object type="image/svg+xml" data="http://luizperes.github.io/status-projects/postit.svg?bgColor=0080ff&strkColor=000000&txtColor=FFFFFF"></object></td>
-  </tr>
-  <tr>
-    <td><code>![Post-It](http://luizperes.github.io/status-projects/postit.svg?bgColor=FFB3B3&strkColor=FFFFFF&title=Task%20%232&desc=Example)</code></td>
-    <td><object type="image/svg+xml" data="http://luizperes.github.io/status-projects/postit.svg?bgColor=FFB3B3&strkColor=FFFFFF&title=Task%20%232&desc=Example"></object></td>
-  </tr>
-</table>
+<div class="div-table">
+  <div class="div-table-row">
+      <div class="div-table-col left" align="center">Sample</div>
+      <div class="div-table-col right" align="center">Result</div>
+  </div>
+  <div class="div-table-row">
+    <div class="div-table-col left" align="left"><p><code>![PostIt](http://api.ideiadoluiz.com.br/postit/)</code></p></div>
+    <div class="div-table-col right" align="center"><img src='http://api.ideiadoluiz.com.br/postit/' alt='Post it 1' height='100' width='250' /></div>
+  </div>
+  <div class="div-table-row">
+    <div class="div-table-col left" align="left"><p><code>![PostIt](http://api.ideiadoluiz.com.br/postit/?title=Task%20%231&desc=Example)</code></p></div>
+    <div class="div-table-col right" align="center"><img src='http://api.ideiadoluiz.com.br/postit/?title=Task%20%231&desc=Example' alt='Post it 2)' height='100' width='250' /></div>
+  </div>
+  <div class="div-table-row">
+    <div class="div-table-col left" align="left"><p><code>![PostIt](http://api.ideiadoluiz.com.br/postit/?bgColor=0080ff&strkColor=000000&txtColor=FFFFFF)</code></p></div>
+    <div class="div-table-col right" align="center"><img src='http://api.ideiadoluiz.com.br/postit/?bgColor=0080ff&strkColor=000000&txtColor=FFFFFF' alt='Post it 3' height='100' width='250' /></div>
+  </div>
+  <div class="div-table-row">
+    <div class="div-table-col left" align="left"><p><code>![PostIt](http://api.ideiadoluiz.com.br/postit/?bgColor=FFB3B3&strkColor=FFFFFF&title=Task%20%232&desc=Example)</code></p></div>
+    <div class="div-table-col right" align="center"><img src='http://api.ideiadoluiz.com.br/postit/?bgColor=FFB3B3&strkColor=FFFFFF&title=Task%20%232&desc=Example' alt='Post It 4' height='100' width='250' /></div>
+  </div>
+  <div class="divRow">
+    <div class="div-table-col left" align="left"><p><code>![PostIt](http://api.ideiadoluiz.com.br/postit/?title=Task%20%231&desc=This%20just%20a%20small%20example%20for%20the%20webpage&bgColor=cfc&strkColor=00ff00&txtColor=ff8000)</code></p></div>
+    <div class="div-table-col right" align="center"><img src='http://api.ideiadoluiz.com.br/postit/?title=Task%20%231&desc=This%20just%20a%20small%20example%20for%20the%20webpage&bgColor=cfc&strkColor=00ff00&txtColor=ff8000' alt='Post It 5' height='100' width='250' /></div>
+  </div>
+</div>
 
 <h3>
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support, Contact or Trouble</h3>
