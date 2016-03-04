@@ -25,7 +25,7 @@ I wrote a very ```quick``` guide about how to use my project on [http://luizpere
 | To Do | In Progress | Done  |
 | :---: | :---------: | :---: |
 | ![PostIt](http://api.ideiadoluiz.com.br/postit/?title=Task%20%236&desc=Study%20the%20possibility%20of%20extending%20the%20project%20for%20automatic%20updates.%20@luizperes =150x) | ![PostIt](http://api.ideiadoluiz.com.br/postit/?title=Task%20%235&desc=Separate%20all%20projects%20in%20different%20MarkDown%20files%20using%20the%20format%20%27project_name%27.md%20@luizperes&strkColor=666633&bgColor=cfc&strkColor=00ff00&txtColor=ff8000 =150x) | ![PostIt](http://api.ideiadoluiz.com.br/postit/?title=Task%20%231&desc=Implement%20the%20progress%20bar.%20@luizperes&strkColor=12C7FD&bgColor=CFF3FE =150x) ![PostIt](http://api.ideiadoluiz.com.br/postit/?title=Task%20%232&desc=Create%20Google%20Charts%20related%20to%20the%20projects.%20@luizperes =150x)|
-| | | ![PostIt](http://api.ideiadoluiz.com.br/postit/?title=Task%20%233&desc=Create%20webpage%20with%20instructions%20about%20how%20to%20use.%20@luizperes =150x) ![PostIt](http://api.ideiadoluiz.com.br/postit/?title=Task%20%234&desc=Create%20a%20script%20for%20generating%20the%20.svg%20file.%20@luizperes =150x) |
+| | | ![PostIt](http://api.ideiadoluiz.com.br/postit/?title=Task%20%233&desc=Create%20webpage%20with%20instructions%20about%20how%20to%20use.%20@luizperes =150x) ![PostIt](http://api.ideiadoluiz.com.br/postit/?title=Task%20%234&desc=Create%20a%20script%20for%20generating%20the%20.svg%20file.%20@luizperes =150x150) |
 
 
 ## CS50
