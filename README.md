@@ -16,11 +16,11 @@ I wrote a very ```quick``` guide about how to get started with this project on [
 
 | Project Name                        | Status                                    | Technology  | Priority |  Deadline    |
 | ----------------------------------- |:-----------------------------------------:| ----------- | :------: |  :--------:  |
-| [Status Projects](#project-status)  | ![Progress](http://progressed.io/bar/80)  | HTML/MD     | Low      |              |
+| [Status Projects](#project-status)  | ![Progress](http://progressed.io/bar/100) | HTML/MD     | Low      |              |
 | [CS50](#cs50)                       | ![Progress](http://progressed.io/bar/35)  | C           | __HIGH__ | May 01, 2016 |
 | [Artoo Editor](#artoo-editor)       | ![Progress](http://progressed.io/bar/20)  | C           | Medium   |              |
 | [Documentation Swift](#swift)       | ![Progress](http://progressed.io/bar/30)  | Swift       | Medium   |              |
-| [Art of Assembly x86](#assembly)    | ![Progress](http://progressed.io/bar/20)  | Assembly    | Medium   |              |
+| [Art of Assembly x86](#assembly)    | ![Progress](http://progressed.io/bar/30)  | Assembly    | Medium   |              |
 | [Ballsy](#ballsy)                   | ![Progress](http://progressed.io/bar/5)   | iOS/Obj-C   | Low      |              |
 | [Stepss](#stepss)                   | ![Progress](http://progressed.io/bar/60)  | Android/Java| Low      |              |
 | [Project Euler](#project-euler)     | ![Progress](http://progressed.io/bar/10)  | Swift       | Low      |              |
@@ -29,6 +29,8 @@ I wrote a very ```quick``` guide about how to get started with this project on [
 | [Fartometer](#fartometer)           | ![Progress](http://progressed.io/bar/100) | iOS/Obj-C   | Low      | DONE         |
 
 ## Project Status
+
+***Example***
 
 | To Do | In Progress | Done  |
 | :---: | :---------: | :---: |
@@ -57,7 +59,7 @@ I am trying to read and understand all the documentation of [the Swift Programmi
 
 I am also trying to read and understand all the book [Art of Assembly x86](http://www.plantation-productions.com/Webster/www.artofasm.com/Windows/PDFs/0_PDFIndexWin.html) as it should be useful in the future.
 
-<div align="center"><img src='https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:20,80&chl=Read|Not%20Read' alt='Chart CS50)' height='100' width='250' /></div>
+<div align="center"><img src='https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:30,70&chl=Read|Not%20Read' alt='Chart CS50)' height='100' width='250' /></div>
 
 ## Ballsy
 
