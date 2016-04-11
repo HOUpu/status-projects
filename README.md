@@ -24,6 +24,7 @@ I wrote a very ```quick``` guide about how to get started with this project on [
 | [Ballsy](#ballsy)                   | ![Progress](http://progressed.io/bar/5)   | iOS/Obj-C   | Low      |              |
 | [Stepss](#stepss)                   | ![Progress](http://progressed.io/bar/60)  | Android/Java| Low      |              |
 | [Project Euler](#project-euler)     | ![Progress](http://progressed.io/bar/10)  | Swift       | Low      |              |
+| [Comic Books](#comic-books)         | ![Progress](http://progressed.io/bar/100) | iOS/Obj-C   | Low      | DONE         |
 | [Brainfuck](#brainfuck-interpreter) | ![Progress](http://progressed.io/bar/100) | C           | Low      | DONE         |
 | [Beezy-bee](#beezy-bee)             | ![Progress](http://progressed.io/bar/100) | iOS/Obj-C   | Low      | DONE         |
 | [Fartometer](#fartometer)           | ![Progress](http://progressed.io/bar/100) | iOS/Obj-C   | Low      | DONE         |
@@ -78,6 +79,12 @@ I am also trying to read and understand all the book [Art of Assembly x86](http:
 [Project Euler](https://github.com/DestructHub/ProjectEuler) is a compilation of some solutions of the challenges existent in the website [www.projecteuler.net](www.projecteuler.net). This project is one of my favourite ones, because it deals with hard mathematical/computational problems. The sad thing is that I can only help them after finishing my other projects. 
 
 <div align="center"><img src='https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:10,1,89&chco=8BC34A,CDDC39,C8E6C9&chl=Done|In%20Progress|To%20Do' alt='Chart CS50)' height='100' width='250' /></div>
+
+## Comic Books
+
+[Comic Books](https://github.com/cornerstonecollege/comic-books) or ***ComixGram*** is an app that transforms any picture into a comic-book-like one. It was made by the students I teach at [Cornerstone College](http://ciccc.ca).
+
+<div align="center"><img src='https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:100&chco=8BC34A&chl=Done' alt='Chart CS50)' height='100' width='250' /></div>
 
 ## Brainfuck Interpreter
 
