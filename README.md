@@ -16,7 +16,8 @@ I wrote a very ```quick``` guide about how to get started with this project on [
 
 | Project Name                        | Status                                    | Technology  | Priority |  Deadline    |
 | ----------------------------------- |:-----------------------------------------:| ----------- | :------: |  :--------:  |
-| [Status Projects](#project-status)  | ![Progress](http://progressed.io/bar/100) | HTML/MD     | Low      |              |
+| [Brain](#brain-programming)         | ![Progress](http://progressed.io/bar/10)  | C/C++/LLVM  | Low      |              |
+| [Status Projects](#project-status)  | ![Progress](http://progressed.io/bar/100) | HTML/MD     | Low      | DONE         |
 | [CS50](#cs50)                       | ![Progress](http://progressed.io/bar/35)  | C           | __HIGH__ | May 01, 2016 |
 | [Artoo Editor](#artoo-editor)       | ![Progress](http://progressed.io/bar/20)  | C           | Medium   |              |
 | [Documentation Swift](#swift)       | ![Progress](http://progressed.io/bar/30)  | Swift       | Medium   |              |
@@ -38,6 +39,11 @@ I wrote a very ```quick``` guide about how to get started with this project on [
 | ![PostIt](http://api.ideiadoluiz.com.br/postit/?title=Task%20%236&desc=Study%20the%20possibility%20of%20extending%20the%20project%20for%20automatic%20updates.%20@luizperes) | ![PostIt](http://api.ideiadoluiz.com.br/postit/?title=Task%20%235&desc=Separate%20all%20projects%20in%20different%20MarkDown%20files%20using%20the%20format%20%27project_name%27.md%20@luizperes&strkColor=666633&bgColor=cfc&strkColor=00ff00&txtColor=ff8000) | ![PostIt](http://api.ideiadoluiz.com.br/postit/?title=Task%20%231&desc=Implement%20the%20progress%20bar.%20@luizperes&strkColor=12C7FD&bgColor=CFF3FE) ![PostIt](http://api.ideiadoluiz.com.br/postit/?title=Task%20%232&desc=Create%20Google%20Charts%20related%20to%20the%20projects.%20@luizperes)|
 | | | ![PostIt](http://api.ideiadoluiz.com.br/postit/?title=Task%20%233&desc=Create%20webpage%20with%20instructions%20about%20how%20to%20use.%20@luizperes) ![PostIt](http://api.ideiadoluiz.com.br/postit/?title=Task%20%234&desc=Create%20a%20script%20for%20generating%20the%20.svg%20file.%20@luizperes) |
 
+## Brain Programming
+
+[Brain](https://github.com/luizperes/brain) is a programming language made on LLVM based on BrainFuck.
+
+<div align="center"><img src='https://chart.googleapis.com/chart?cht=p&chs=250x100&chd=t:5,5,90&chco=8BC34A,CDDC39,C8E6C9&chl=Done|In%20Progress|To%20Do' alt='Chart Brain)' height='100' width='250' /></div>
 
 ## CS50
 
